@@ -21,7 +21,7 @@ function timeprop(F::Function, tmax::Float64, x_0::Float64, a_0::Float64, h::Flo
 
     end
 
-    return t, x
+    return x,a
 end
 
 
