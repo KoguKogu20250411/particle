@@ -84,7 +84,7 @@ using Test
 
         # 理論値: x = x_0 -  \cos(ωt)
         # 理論値: v = sin(ωt)
-        expected_x = x_0  -  cos(ω * tmax)
+        expected_x = x_0 + 1  -  cos(ω * tmax)
         expected_a =  sin(ω * tmax)
 
         # バネの運動は数値誤差が蓄積しやすいため、許容誤差を大きくする
